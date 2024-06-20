@@ -46,6 +46,7 @@ a {
 }
 body {
     margin-left: 35px;
+    margin-right: 35px;
     background-color: rgb(16, 9, 41);
     background-size: 18px 18px;
     background-image: radial-gradient(circle, rgba(161, 160, 255, 0.274) 1px, rgba(0, 0, 0, 0) 1px);
