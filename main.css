@@ -45,8 +45,8 @@ a {
     filter: invert(76%) sepia(63%) saturate(3069%) hue-rotate(85deg) brightness(103%) contrast(111%);
 }
 body {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 15px;
+    margin-right: 15x;
     background-color: rgb(16, 9, 41);
     background-size: 18px 18px;
     background-image: radial-gradient(circle, rgba(161, 160, 255, 0.274) 1px, rgba(0, 0, 0, 0) 1px);
@@ -124,7 +124,8 @@ body {
     margin-right: 35px;
     line-height: 4;
     height: auto;
-    width: max-content;
+    width: fit-content;
+    margin-right: 15px;
     background-color: rgba(16, 9, 41, 0.911);
     border-color: #00ff55;
     border-style: solid;
