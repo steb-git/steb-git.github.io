@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    flex: auto;
+    flex-wrap: wrap;
+    margin-left: 3px;
+}
+
+#title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 0.30;
+    color: #00ff55;
+    transition-duration:0.7s;
+}
+
+#title:hover {
+    color: rgb(16, 9, 41);
+    -webkit-text-stroke: 1px #00ff55 ;
+    letter-spacing: 3.2px;
+    font-weight: normal;
+    transition-duration: 0.5s;
+    font-weight: 200;
+}
+
+#header,
+a {
+    font-family: "Space Mono", monospace;
+    font-weight: 100;
+    letter-spacing: 2;
+    line-height: 0.9;
+    font-style: normal;
+    font-size: small;
+    color: rgba(161, 160, 255, 0.932);
+}
+#branding{ 
+    color: #00ff55;
+    transform: scale(1);
+    margin-left: auto;
+    text-align: left;
+    transform: scale(0.2);
+    filter: invert(76%) sepia(63%) saturate(3069%) hue-rotate(85deg) brightness(103%) contrast(111%);
+}
+body {
+    margin-left: 35px;
+    background-color: rgb(16, 9, 41);
+    background-size: 18px 18px;
+    background-image: radial-gradient(circle, rgba(161, 160, 255, 0.274) 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+#subtext1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5pt;
+    font-size: 19px;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+    line-height: 0;
+    color: rgba(161, 160, 255, 0.932);
+    transition-duration: 0.7s;
+}
+#subtext1:hover {
+    transition-duration: 0.5s;
+    letter-spacing: 1pt;
+    text-decoration-style: wavy;
+}
+.it {
+    font-style: italic;
+}
+
+#text1 {
+    color: rgba(161, 160, 255, 0.932);
+    font-family: "Space Mono", monospace;
+    line-height: 1.5;
+    size: 10px;
+    stroke: #00ff55;
+    margin-right: 100px;
+    font-size: 16px;
+    margin-top: auto;
+    width: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    height: max-content;
+}
+ form {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.button, button{
+    border-color: #00ff55;
+    background-color: rgb(16, 9, 41);
+    padding: 6px 12px;
+    color: rgba(161, 160, 255, 0.932);
+    padding: 6pt;
+    margin-left: 11px;
+    margin-bottom: 2px;
+    font-family: "Space Mono", monospace;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+}
+
+.button:hover,
+.button:focus, button:focus {
+    border-color: #00ff55;
+    background-color: #00ff55;
+    padding: 6px 12px;
+    color: rgb(16, 9, 41);
+    padding-left: auto;
+    font-family: "Space Mono", monospace;
+    cursor: pointer;
+    font-style: italic;
+    box-shadow: #00ff557e;
+}
+
+#mainbox {
+    margin-right: 35px;
+    line-height: 4;
+    height: auto;
+    width: max-content;
+    background-color: rgba(16, 9, 41, 0.911);
+    border-color: #00ff55;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.subheader_box {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.5px;
+    margin-left: 13px;
+    color: #00ff55;
+    line-height: 20px;
+    margin-bottom: auto;
+    margin-right: 13px;
+}
+.subtext_again {
+    font-family: "Space Mono", monospace;
+    color:rgba(161, 160, 255, 0.932);
+    font-weight: 200;
+    font-size: 14px;
+    display: inline;
+    width: fit-content;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+.subtext_again:hover {
+    color: rgb(16, 9, 41);
+    background-color: #00ff55;
+    font-style: italic;
+}
+#footer, .bonus {
+    display: grid;
+    margin-left: 2.4px;
+}
